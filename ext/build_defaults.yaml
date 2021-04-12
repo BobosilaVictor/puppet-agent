@@ -16,6 +16,12 @@ foss_platforms:
   - fedora-32-x86_64
   - osx-10.14-x86_64
   - osx-10.15-x86_64
+<<<<<<< HEAD
+=======
+  - osx-11-x86_64
+  - sles-11-i386
+  - sles-11-x86_64
+>>>>>>> 11cf9a7fc... (PA-3617) Update build_defaults.yaml to enable OSX 11 Big Sur for internal nightlies ship
   - sles-12-x86_64
   - sles-15-x86_64
   - ubuntu-16.04-amd64
@@ -76,6 +82,8 @@ platform_repos:
     repo_location: repos/apple/10.14/**/x86_64/*.dmg
   - name: osx-10.15
     repo_location: repos/apple/10.15/**/x86_64/*.dmg
+  - name: osx-11
+    repo_location: repos/apple/11/**/x86_64/*.dmg
   - name: solaris-11-i386
     repo_location: repos/solaris/11/**/*.i386.p5p
   - name: solaris-11-sparc
